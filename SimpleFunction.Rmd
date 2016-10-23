@@ -1,0 +1,14 @@
+---
+title: "SimpleFunction"
+author: "Merdi Rafiei"
+date: "October 22, 2016"
+output: 
+  html_document:
+    keep_md: true
+---
+
+# Example code for using RStudion with Git and GitHub
+
+se <- function(x){
+  sd(x)/length(x)
+}
